@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    background-image: url(imgs/gradient.png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position-x: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem ;
+    margin: 0px 40px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.logo-name{
+    font-size: 30px;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.logo-name:hover{
+    color: hsl(0, 0%, 70%);
+}
+.logo-name:active{
+    color: hsl(0, 0%, 90%);
+}
+
+.a-link {
+    text-decoration: none;
+
+}
+.a-link a{
+    padding: 10px;
+    width: 100%;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: hsl(0, 0%, 78%);
+}
+a:active{
+    color: hsl(0, 0%, 88%);
+}
+
+button {
+    width: 150px;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+}
+button:hover {
+    border: 1px solid hsl(0, 0%, 86%);
+    background-color: hsl(0, 0%, 10%);
+}
+button:active{
+    background-color: hsl(0, 0%, 20%);
+}
+
+.img{
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.main{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px 0;
+
+}
+.main-div{
+    margin-left: 200px;
+}
+
+
+.main p{
+    color: grey;
+    margin: 0px;
+}
+.main h1{
+    margin: 0px;
+}
+.h1{
+    margin: 20px 0;
+}
+.p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.two-buttons button{
+    border-radius: 13;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    width: 200px;
+}
+.first-button{
+    color: hsl(300, 63%, 24%);
+    border: 1px solid grey;
+    font-size: 15px;
+}
+.second-button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-button-first{
+    width: 300px;
+}
+
+@media  (max-width: 500px){
+    .a-link {
+        display: none;
+    }
+    .main {
+        margin: 0px;
+    }
+}
